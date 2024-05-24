@@ -6,7 +6,11 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+    "import": "node streams/import-csv.js",
     "dev": "node --watch src/server.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
 }
