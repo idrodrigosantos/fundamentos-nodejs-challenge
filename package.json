@@ -2,7 +2,7 @@
   "name": "fundamentos-nodejs-challenge",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "To Do List Rest API",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
